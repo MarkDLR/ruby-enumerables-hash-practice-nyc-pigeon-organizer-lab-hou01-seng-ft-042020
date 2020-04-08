@@ -4,6 +4,7 @@ def nyc_pigeon_organizer(data)
   p key
   p value
   p memo
+  memo
   end
 
 end
