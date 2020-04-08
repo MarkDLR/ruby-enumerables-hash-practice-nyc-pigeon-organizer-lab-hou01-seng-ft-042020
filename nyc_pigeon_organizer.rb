@@ -3,7 +3,7 @@ def nyc_pigeon_organizer(data)
   data.reduce({}) do |memo, (key, value)|
   #sorted_member_list =  bands.reduce({}) do |memo, (key, value)|
  memo[key] = value.sort
- memo
+ p memo
 
   end
 
